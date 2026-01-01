@@ -36,4 +36,4 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
       - name: 🛠️ Build
-        run: dotnet build "GlobTester.sln" --configuration Release
+        run: dotnet build "GlobTester.slnx" --configuration Release
